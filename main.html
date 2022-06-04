@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Sitem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="text/javascript" href="app.js">
+
+</head>
+<body>
+    <!– Navigasyon oluşturma –>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <!– Navigasyon kısmındaki logo –>
+            <a href="/" id="navbar__logo">A.Plant</a>
+            <!– Navigasyon kısmındaki barlar –>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!– Navigasyon kısmındaki bölümler liste şeklinde –>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item"><a href="/" class="navbar__links">Tech</a>
+                </li>
+                <li class="navbar__item"><a href="/" class="navbar__links">Products</a>
+                </li>
+                <!– Navigasyon kısmındaki BUTTON VAR –>
+                <li class="navbar__btn"><a href="/" class="button">Sign Up</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="photo_bg1"></div>
+</body>
+<script>
+
+var ali = {
+    ad:'Ali',
+    soyad: 'Yılmaz',
+    cinsiyet:'erkek',
+    telefon:'02163714493',
+    adres: 'İzmit Kocaeli',
+    meslek: 'Bilgisayar Mühendisi',
+    diller:['ingilizce','almanca'],
+    hobiler:['sinema','spor','kitap okumak']
+};
+
+console.log(ali);
+console.log(ali.diller.length);
+
+
+
+
+</script>
+</html>
